@@ -1,0 +1,8 @@
+{"type":"record",
+"name":"HMV_DDA",
+"namespace":"key.SOURCEDB.DEP000PA.DEPPA",
+"fields":[
+{"name":"HDDA_KEY_CONTA","type": "string"},
+{"name":"HDDA_KEY_DATA_LANCAMENTO","type": "string"},
+{"name":"HDDA_KEY_DATA_HORA","type": "string"}
+]}

@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "name": "categoryKey",
+    "namespace": "EdpSimulator.Entities",
+    "fields": [
+      {
+        "name": "transactionid",
+        "type": "string"
+      },
+      {
+        "name": "accountid",
+        "type": "string"
+      }
+    ]
+  }

@@ -1,0 +1,7 @@
+{"type":"record",
+"name":"HTHPSE_T",
+"namespace":"key.SOURCEDB.HTH000PA.HTHPA",
+"fields":[
+{"name":"IDMSGBAN_1","type":{"type":"string"},"default":""},
+{"name":"IDMSGBAN_2","type":{"type":"string"},"default":""}]
+}

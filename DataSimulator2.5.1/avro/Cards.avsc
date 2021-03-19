@@ -1,0 +1,323 @@
+{
+  "name": "MyClass",
+  "type": "record",
+  "namespace": "com.acme.avro",
+  "fields": [
+    {
+      "name": "afterImage",
+      "type": {
+        "name": "afterImage",
+        "type": "record",
+        "fields": [
+          {
+            "name": "TXN_DT",
+            "type": "string"
+          },
+          {
+            "name": "TXN_TM",
+            "type": "int"
+          },
+          {
+            "name": "TXN_AMT",
+            "type": "string"
+          },
+          {
+            "name": "TXN_SINAL",
+            "type": "string"
+          },
+          {
+            "name": "ORIG_PLAS",
+            "type": "string"
+          },
+          {
+            "name": "ACCT_COID",
+            "type": "int"
+          },
+          {
+            "name": "ACCT_PROD",
+            "type": "string"
+          },
+          {
+            "name": "ACCT_NBR",
+            "type": "string"
+          },
+          {
+            "name": "FILE_ORIG",
+            "type": "string"
+          },
+          {
+            "name": "PSTG_DT",
+            "type": "int"
+          },
+          {
+            "name": "PSTG_SEQ",
+            "type": "int"
+          },
+          {
+            "name": "TIPO_CRT",
+            "type": "string"
+          },
+          {
+            "name": "TXN_FMT_IND",
+            "type": "string"
+          },
+          {
+            "name": "TXN_SRCE",
+            "type": "string"
+          },
+          {
+            "name": "TXN_CATG",
+            "type": "string"
+          },
+          {
+            "name": "TXN_3RD_LVL",
+            "type": "string"
+          },
+          {
+            "name": "TXN_4TH_LVL",
+            "type": "string"
+          },
+          {
+            "name": "TXN_5TH_LVL",
+            "type": "string"
+          },
+          {
+            "name": "PRT_ON_STMT",
+            "type": "string"
+          },
+          {
+            "name": "TXN_CD",
+            "type": "int"
+          },
+          {
+            "name": "TXN_DESC",
+            "type": "string"
+          },
+          {
+            "name": "TXN_CNTRY_CD",
+            "type": "string"
+          },
+          {
+            "name": "TXN_FGN_CUR_CD",
+            "type": "string"
+          },
+          {
+            "name": "TXN_FGN_AMT",
+            "type": "string"
+          },
+          {
+            "name": "TXN_FGN_TC",
+            "type": "string"
+          },
+          {
+            "name": "TXN_OPER",
+            "type": "string"
+          },
+          {
+            "name": "TXN_MCC",
+            "type": "string"
+          },
+          {
+            "name": "TXN_TERM_ID",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_OPER",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_TERM",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_AUTH_CLI",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_AUTH_CRT",
+            "type": "string"
+          },
+          {
+            "name": "MRCH_DESC",
+            "type": "string"
+          },
+          {
+            "name": "NAT_OPER",
+            "type": "int"
+          },
+          {
+            "name": "TOKEN_LVL",
+            "type": "string"
+          },
+          {
+            "name": "WALTIP",
+            "type": "string"
+          },
+          {
+            "name": "APLIC_TXN",
+            "type": "string"
+          },
+          {
+            "name": "AVAIL_CR_LN",
+            "type": "string"
+          },
+          {
+            "name": "EMB_NM_LN_1",
+            "type": "string"
+          },
+          {
+            "name": "PLAS_TENANT",
+            "type": "string"
+          },
+          {
+            "name": "NUM_CIS",
+            "type": "int"
+          },
+          {
+            "name": "ACCT_FIID",
+            "type": "string"
+          },
+          {
+            "name": "ACCT_TYP_CD",
+            "type": "string"
+          },
+          {
+            "name": "CTL_ACCT_IND",
+            "type": "string"
+          },
+          {
+            "name": "ACCT_CUR_CD",
+            "type": "string"
+          },
+          {
+            "name": "OFF",
+            "type": "string"
+          },
+          {
+            "name": "CTL_ACCT_COID",
+            "type": "int"
+          },
+          {
+            "name": "CTL_ACCT_PROD",
+            "type": "string"
+          },
+          {
+            "name": "CTL_ACCT_NBR",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_MIG",
+            "type": "string"
+          },
+          {
+            "name": "RA_IBAN",
+            "type": "string"
+          },
+          {
+            "name": "BANCO",
+            "type": "string"
+          },
+          {
+            "name": "REF_SIST_ORIG",
+            "type": "string"
+          },
+          {
+            "name": "IBAN_ORDEN",
+            "type": "string"
+          },
+          {
+            "name": "NOME_ORDEN",
+            "type": "string"
+          },
+          {
+            "name": "IBAN_DEST",
+            "type": "string"
+          },
+          {
+            "name": "NOME_DEST",
+            "type": "string"
+          },
+          {
+            "name": "ENTIDADE",
+            "type": "int"
+          },
+          {
+            "name": "REFERENCIA",
+            "type": "int"
+          },
+          {
+            "name": "REF_PAG_ESTADO",
+            "type": "int"
+          },
+          {
+            "name": "USER_INS",
+            "type": "string"
+          },
+          {
+            "name": "TIMESTAMP_INS",
+            "type": "string"
+          },
+          {
+            "name": "USER_ALT",
+            "type": "string"
+          },
+          {
+            "name": "TIMESTAMP_ALT",
+            "type": "string"
+          },
+          {
+            "name": "LOG_ACCAO",
+            "type": "string"
+          },
+          {
+            "name": "ODS_PSTG_DT",
+            "type": "int"
+          },
+          {
+            "name": "ODS_PSTG_SEQ",
+            "type": "int"
+          },
+          {
+            "name": "CAM_AU_PSTG_DT",
+            "type": "int"
+          },
+          {
+            "name": "CAM_AU_PSTG_SEQ",
+            "type": "int"
+          },
+          {
+            "name": "CAM_PSTG_DT",
+            "type": "int"
+          },
+          {
+            "name": "CAM_PSTG_SEQ",
+            "type": "int"
+          },
+          {
+            "name": "SEQ_ID",
+            "type": "int"
+          }
+        ]
+      }
+    },
+    {
+      "name": "beforeImage",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "A_ENTTYP",
+      "type": "string"
+    },
+    {
+      "name": "A_CCID",
+      "type": "string"
+    },
+    {
+      "name": "A_TIMSTAMP",
+      "type": "string"
+    }
+  ]
+}

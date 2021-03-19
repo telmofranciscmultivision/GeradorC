@@ -1,0 +1,49 @@
+{
+  "type": "record",
+  "name": "LOGTXN_T",
+  "namespace": "key.SOURCEDB.CAM00020.CAM20",
+  "fields": [
+    {
+      "name": "ACCT_COID",
+      "type": {
+        "type": "string",
+      },
+      "default": ""
+    },
+    {
+      "name": "ACCT_PROD",
+      "type": {
+        "type": "string",
+      },
+      "default": ""
+    },
+    {
+      "name": "ACCT_NBR",
+      "type": {
+        "type": "string",
+      },
+      "default": ""
+    },
+    {
+      "name": "FILE_ORIG",
+      "type": {
+        "type": "string",
+      },
+      "default": ""
+    },
+    {
+      "name": "PSTG_DT",
+      "type": {
+        "type": "string",
+      },
+      "default": ""
+    },
+    {
+      "name": "PSTG_SEQ",
+      "type": {
+        "type": "string",
+      },
+      "default": ""
+    }
+  ]
+}

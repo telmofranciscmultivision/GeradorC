@@ -1,0 +1,39 @@
+{
+  "name": "Category",
+  "type": "record",
+  "namespace": "EdpSimulator.Entities",
+  "fields": [
+    {
+      "name": "transactionid",
+      "type": "string"
+    },
+    {
+      "name": "accountid",
+      "type": "string"
+    },
+    {
+      "name": "category",
+      "type": "int"
+    },
+    {
+      "name": "subcategory",
+      "type": "int"
+    },
+    {
+      "name": "sourceengine",
+      "type": "string"
+    },
+    {
+      "name": "engineversion",
+      "type": "string"
+    },
+    {
+      "name": "modelversion",
+      "type": "string"
+    },
+    {
+      "name": "predictionconfidence",
+      "type": "string"
+    }
+  ]
+}

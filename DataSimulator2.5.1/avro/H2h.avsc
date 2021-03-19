@@ -1,0 +1,251 @@
+{
+  "name": "H2h",
+  "type": "record",
+  "namespace": "EdpSimulator.Entities",
+  "fields": [
+    {
+      "name": "AfterImageH2h",
+      "type": {
+        "name": "afterImage",
+        "type": "record",
+        "fields": [
+          {
+            "name": "IDMSGBAN_1",
+            "type": "int"
+          },
+          {
+            "name": "IDMSGBAN_2",
+            "type": "int"
+          },
+          {
+            "name": "CONTA_CLI",
+            "type": "int"
+          },
+          {
+            "name": "CODMSG_BS",
+            "type": "string"
+          },
+          {
+            "name": "VERMSG",
+            "type": "int"
+          },
+          {
+            "name": "DHMSG",
+            "type": "int"
+          },
+          {
+            "name": "CODRESPS",
+            "type": "int"
+          },
+          {
+            "name": "DT_RECOLHA",
+            "type": "int"
+          },
+          {
+            "name": "ESTADO_ANT",
+            "type": "string"
+          },
+          {
+            "name": "ESTADO_ACT",
+            "type": "string"
+          },
+          {
+            "name": "RETURN_CODE",
+            "type": "int"
+          },
+          {
+            "name": "RETURN_MSG",
+            "type": "string"
+          },
+          {
+            "name": "TIPO_PEDIDO",
+            "type": "int"
+          },
+          {
+            "name": "TIP_PAG_SER",
+            "type": "int"
+          },
+          {
+            "name": "NIB_ORD",
+            "type": "string"
+          },
+          {
+            "name": "ENTIDADE",
+            "type": "int"
+          },
+          {
+            "name": "REFERENCIA",
+            "type": "int"
+          },
+          {
+            "name": "REF_ESP",
+            "type": "int"
+          },
+          {
+            "name": "REF_ADICIONAL",
+            "type": "int"
+          },
+          {
+            "name": "REF_RESPOSTA",
+            "type": "int"
+          },
+          {
+            "name": "MONTANTE",
+            "type": "string"
+          },
+          {
+            "name": "REDE_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "CANAL_ORIGEM",
+            "type": "string"
+          },
+          {
+            "name": "USERID_CLI",
+            "type": "string"
+          },
+          {
+            "name": "CAT_NR",
+            "type": "string"
+          },
+          {
+            "name": "CAT_CARTAO",
+            "type": "string"
+          },
+          {
+            "name": "LOCMORTER",
+            "type": "string"
+          },
+          {
+            "name": "CHAVE_TRF",
+            "type": "string"
+          },
+          {
+            "name": "APLIC_N",
+            "type": "string"
+          },
+          {
+            "name": "ID_LOG_SIBS",
+            "type": "int"
+          },
+          {
+            "name": "NR_LOG_SIBS",
+            "type": "int"
+          },
+          {
+            "name": "NR_CONTRIBUINTE",
+            "type": "int"
+          },
+          {
+            "name": "NR_FACTURA",
+            "type": "int"
+          },
+          {
+            "name": "DESCENT",
+            "type": "string"
+          },
+          {
+            "name": "TIPSER",
+            "type": "int"
+          },
+          {
+            "name": "CODMOEDA",
+            "type": "string"
+          },
+          {
+            "name": "CODRECS",
+            "type": "string"
+          },
+          {
+            "name": "RESP1",
+            "type": "string"
+          },
+          {
+            "name": "RESP2",
+            "type": "string"
+          },
+          {
+            "name": "BANCO_CLI",
+            "type": "int"
+          },
+          {
+            "name": "BALCAO_CLI",
+            "type": "int"
+          },
+          {
+            "name": "CKD_CLI",
+            "type": "int"
+          },
+          {
+            "name": "DH_INS",
+            "type": "string"
+          },
+          {
+            "name": "CONFIRMACAO_SIBS",
+            "type": "string"
+          },
+          {
+            "name": "DH_CONFIRMACAO",
+            "type": "string"
+          },
+          {
+            "name": "USERID_ALT",
+            "type": "string"
+          },
+          {
+            "name": "DH_ALT",
+            "type": "string"
+          },
+          {
+            "name": "SIBS_PEDIDO",
+            "type": "string"
+          },
+          {
+            "name": "SIBS_RESPOSTA",
+            "type": "string"
+          },
+          {
+            "name": "MEIO_PAGAMENTO",
+            "type": "string"
+          },
+          {
+            "name": "PAN_CARTAO",
+            "type": "int"
+          },
+          {
+            "name": "FATURA_SIMPLIF",
+            "type": "string"
+          },
+          {
+            "name": "RODAPE_FAT_SIMP",
+            "type": "string"
+          },
+          {
+            "name": "COD_JANELA",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "beforeImage",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "A_ENTTYP",
+      "type": "string"
+    },
+    {
+      "name": "A_CCID",
+      "type": "string"
+    },
+    {
+      "name": "A_TIMSTAMP",
+      "type": "string"
+    }
+  ]
+}
